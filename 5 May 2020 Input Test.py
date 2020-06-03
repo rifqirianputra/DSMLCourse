@@ -1,0 +1,11 @@
+name = input("Please enter your name ")
+print("hello," ,name, ". welcome to the training program")
+age = int(input("please enter your age "))
+print("you are," ,age, " years old")
+print("your training program will end, approx. when you're", age+5, " years old")
+occupation = input("what do you do for a living? ")
+print("a" , occupation , "? that's cool!")
+salary = int(input( "please enter your monthly salary "))
+print("so your salary is ", salary, ". so that's around ", salary*12, " a year.")
+
+print("to sum it up, your name is ", name, ". you're currently", age, "years old. and 5 years ago you were" , age-5 , ". and if you were to have your salary doubled, you will earn", salary*2, "a month, or around" , salary*2*12, " a year")
